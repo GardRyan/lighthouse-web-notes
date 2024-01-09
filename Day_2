@@ -1,0 +1,27 @@
+//Work in stages. Create the base code.
+//Figure out what it does
+//Figure out what it doesn't do
+//Be curious
+
+//only write code that is the most readable
+//you want other people to be able to understand it
+
+// process.argv()
+// takes the values from the command line arguments
+
+// process.argv.slice()
+// takes command line arguments and presents only the wanted values
+
+// is.integer()
+// replaces % ===1 and returns only integers (whole numbers)
+
+// process.exit()
+// exits the loop without completing the remainder
+
+// isNan()
+// identifies if a string is trying to be identified as a number
+
+//When working in teams
+//git pull
+//before committing any changes, commit
+//git pull
