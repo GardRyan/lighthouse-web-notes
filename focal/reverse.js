@@ -2,6 +2,8 @@
 
 const input = process.argv[2];
 
+console.log ("hello world")
+
 if (input)
   console.log(reverse(input));
 
