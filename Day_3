@@ -1,0 +1,33 @@
+Objects = hold data
+  
+
+object.keys 
+  The title of the category in the object (keys) 
+
+object.entries
+  All entries in the object (entries)
+
+object.values
+  the categorical values held. i.e. title = "this!" value is "this!"
+
+Methods vs Function
+
+functions are a set of operations that are independent
+
+methods are a function scoped to the object
+
+esxample:
+const bobTheBuilder = {
+  name: "Bob",
+  age: 42,
+  powerLevel: 9001,
+  occupation: "builder",
+  greet: function () {
+    console.log(
+      `Hi! My name is ${this.name}, I'm ${this.age}, and I work as a ${this.occupation}.`
+    )
+  }
+}
+
+//THIS works within that object so if the object name changes, you can keep the formula and it'll work. 
+
