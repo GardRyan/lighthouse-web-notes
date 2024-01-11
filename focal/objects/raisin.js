@@ -1,18 +1,20 @@
+// First problem
 
 const raisinAlarm = function(cookie) {
   for (const item of cookie) {
     if (item === "🍇")
-    return "Raisin alert";
+    return "Raisin alert!";
   }
   return "All good!";
 }
 
-/*
+
   console.log(raisinAlarm(["🍫", "🍫", "🍇", "🍫"]));
   console.log(raisinAlarm(["🍫", "🍇", "🍫", "🍫", "🍇"]));
   console.log(raisinAlarm(["🍫", "🍫", "🍫"]));
 
-*/
+
+// Second problem
 
 const raisinAlarmArray = function (cookies) {
   const responses = [];
