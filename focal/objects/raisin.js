@@ -1,59 +1,18 @@
-/*
+
 const raisinAlarm = function(cookie) {
-    
-  //  let raisin = "🍇";
-    let raisinCount = 0;
-  //  let alert = `Raisin alert!`;
-  //  let raisinPass = `All good!`;
-  //let chocolate ="🍫" ;
-
-  const raisin = cookie.map(cookies => {
-    if (cookies.includes("🍇")) {
-      raisinCount++; // increases raisin count
-    }else {
-      raisinCount = raisinCount; //does nothing
-    }
-  
-  const results = //count the number of raisins and return result (raisin alert or all good)
-  
-  
-      //    return `Raisin alert!`;
-  //  } else {
-  //    return `All good!`;
-    }
+  for (const item of cookie) {
+    if (item === "🍇")
+    return "Raisin alert";
   }
-  );
-  return results;
-};
+  return "All good!";
+}
 
+/*
+  console.log(raisinAlarm(["🍫", "🍫", "🍇", "🍫"]));
+  console.log(raisinAlarm(["🍫", "🍇", "🍫", "🍫", "🍇"]));
+  console.log(raisinAlarm(["🍫", "🍫", "🍫"]));
 
-//  for (let i = 0; i < cookie.length; i++) {
-//    if (cookie[i] === raisin) {
-//       return alert;
-//       //raisinCount++;
-//    }else {
-//      return raisinPass;
-      
-//    }
-//  }
-//};
-
-//console.log(raisinAlarm(["🍫", "🍫", "🍇", "🍫"]));
-//console.log(raisinAlarm(["🍫", "🍇", "🍫", "🍫", "🍇"]));
-console.log(raisinAlarm(["🍫", "🍫", "🍫"]));
-
-
-//  expected output
-//  Raisin alert!
-//  Raisin alert!
-//  All good!*/
-
-/*const raisinAlarm1 = function (cookie) {
-  if (cookie.includes("🍇")) {
-    return `Raisin alert!`;
-  }
-  return `All good!`;
-};*/
+*/
 
 const raisinAlarmArray = function (cookies) {
   const responses = [];
@@ -68,19 +27,6 @@ const raisinAlarmArray = function (cookies) {
   return responses;
 };
 
-
-/*
-  console.log(raisinAlarm(["🍫", "🍫", "🍇", "🍫"]));
-  console.log(raisinAlarm(["🍫", "🍇", "🍫", "🍫", "🍇"]));
-  console.log(raisinAlarm(["🍫", "🍫", "🍫"]));
-
-
- 
-  const raisinAlarmArray = function (cookies) {
-    // Put your solution here
-  };
-
-*/
   console.log(
     raisinAlarmArray([
       ["🍫", "🍫", "🍇", "🍫"],
